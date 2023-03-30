@@ -19,7 +19,7 @@
 
 ## :chart_with_upwards_trend: Diagrama do projeto
 
-<div align="center"> <img src="https://github.com/walterowisk/labProject-api-security-cognito-AWS/blob/main/img/lab-project-cognito-diagram.jpg" alt="AWS Diagram" width="600"> </div>
+<div align="center"> <img src="#" alt="AWS Diagram" width="600"> </div>
 
 ## :cloud: Serviços AWS neste projeto
 
