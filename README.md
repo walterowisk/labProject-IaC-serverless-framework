@@ -3,7 +3,7 @@
 </div>
 <div align="center"> <img src="https://hermes.digitalinnovation.one/tracks/af22d4a0-463f-48c5-a70c-4961d5e618d0.png" alt="Linux Experience" width="300"> </div>
 
-## :spiral_notepad: Infraestrutura Como Código com Serverless Framework na AWS
+## :spiral_notepad: Infraestrutura como Código com Serverless Framework na AWS
 
 ## :wrench: Ferramentas que utilizei
 
@@ -19,7 +19,7 @@
 
 ## :chart_with_upwards_trend: Diagrama do projeto
 
-<div align="center"> <img src="#" alt="AWS Diagram" width="600"> </div>
+<div align="center"> <img src="https://i.imgur.com/RikRRxz.png" alt="AWS Diagram" width="600"> </div>
 
 ## :cloud: Serviços AWS neste projeto
 
@@ -30,27 +30,20 @@
 
 ## :page_facing_up: Descrição do desafio de projeto
 
-Oferecer autenticação, autorização e gerenciamento de usuários para suas aplicações Web e Mobile com o Amazon Cognito. Esse serviço, totalmente gerenciado pela AWS, suporta os principais mecanismos de segurança do mercado, além da integração com terceiros, como Facebook, Google, Apple ou a própria Amazon.
+Criação de uma infraestrutura em nuvem AWS para a publicação de funções CRUD com CloudFormation, Lambda, DynamoDB e API Gateway utilizando o Serverless Framework.
 
----
+## :pencil: Pré-requisitos:
 
-# API Node.js com Serverless Framework em ambiente AWS
+- Possuir conta na AWS
+- Node.js instalado (Página de download: https://nodejs.org/en/download)
+- AWS CLI instalado (Veja como instalar: https://docs.aws.amazon.com/pt_br/cli/latest/userguide/getting-started-install.html)
 
-Este repositório contém o código fonte do Live Coding da DIO no dia 29/07/2021. Neste projeto vamos criar uma infraestrutra em nuvem AWS com API Gateway, DynamoDB, AWS Lambda e AWS CloudFormation utilizando o framework Serverless para o desenvolvimento baseada em Infraestrutura as a Code.
+## :identification_card: Credenciais AWS
 
-## Etapas
+#### Criar usuário
 
-Pré requisitos:
-
-- possuir uma conta na AWS e instalar Node.js na máquina.
-- Instalar o AWS CLI: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
-
-### Setup Inicial
-
-#### Credenciais AWS
-
-- Criar usuário: AWS Management Console -> IAM Dashboard -> Create New User -> <nome do usuário> -> Permissions "Administrator Access" -> Programmatic Access -> Dowload Keys
-- No terminal: `$ aws configure` -> colar as credenciais geradas anteriormente
+- AWS Management Console :arrow_right: IAM Dashboard :arrow_right: Create New User :arrow_right: <nome do usuário> :right_arrow: Permissions "Administrator Access" :arrow_right: Programmatic Access :point_right: Dowload Keys
+- No terminal: `$ aws configure` :arrow_right: colar as credenciais geradas anteriormente
 -
 
 #### Configurar o framework Serverless
