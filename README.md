@@ -38,7 +38,7 @@ Criação de uma infraestrutura em nuvem AWS para a publicação de funções CR
 - Node.js instalado (Página de download: https://nodejs.org/en/download)
 - AWS CLI instalado (Veja como instalar: https://docs.aws.amazon.com/pt_br/cli/latest/userguide/getting-started-install.html)
 
-## :identification_card: Credenciais AWS
+## :id: Credenciais AWS
 
 #### Criar usuário
 
